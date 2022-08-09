@@ -6,7 +6,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useAuth0 } from '@auth0/auth0-react';
 import Welcome from './Welcome'
 import User from './User'
-import Login from './Login'
 import {
   BrowserRouter as Router,
   Routes,
