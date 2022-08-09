@@ -1,4 +1,5 @@
 import React from 'react';
+import './theme/BestBooks.css'
 
 class BestBooks extends React.Component {
   constructor(props) {
@@ -15,7 +16,7 @@ class BestBooks extends React.Component {
     /* TODO: render all the books in a Carousel */
 
     return (
-      <>
+      <div className = 'bestbooks'>
         <h2>My Essential Lifelong Learning &amp; Formation Shelf</h2>
 
         {this.state.books.length ? (
@@ -23,7 +24,7 @@ class BestBooks extends React.Component {
         ) : (
           <h3>No Books Found :(</h3>
         )}
-      </>
+      </div>
     )
   }
 }
