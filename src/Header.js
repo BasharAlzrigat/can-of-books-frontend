@@ -3,7 +3,6 @@ import { Navbar, NavItem } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import Login from './Login'
 import Logout from './Logout'
-import About from './About'
 import './theme/Header.css'
 import Logo from './theme/logo.png'
 
