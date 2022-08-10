@@ -13,6 +13,7 @@ class Header extends React.Component {
         <Navbar.Brand><a href = "/"><img className = 'logoHeaderImg'src = {Logo} alt = 'logo'/></a></Navbar.Brand>
         <NavItem><Link to="/" className="nav-link">Home</Link></NavItem>
         <NavItem><Link to="./User" className="nav-link">Dashboard</Link></NavItem>
+        <NavItem><Link to="./About" className="nav-link">About</Link></NavItem>
 
 <Login />
         <Logout />
